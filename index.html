@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Settings of Humanity — civic data for household security, dignity, and peaceful public understanding. Truth before virality." />
+  <title>General · Settings of Humanity</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="overlay" aria-hidden="true"></div>
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <h1>Settings of Humanity</h1>
+        <p class="tagline">Civic data · dignity first · evidence over tribal scorekeeping</p>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-item active" data-section="general" type="button">
+          <span class="nav-icon" aria-hidden="true">⚙️</span>
+          <span class="nav-text"><strong>General</strong><span>Overview, dignity teaser, what you can do</span></span>
+        </button>
+        <button class="nav-item" data-section="household" type="button">
+          <span class="nav-icon" aria-hidden="true">🏠</span>
+          <span class="nav-text"><strong>Household Security</strong><span>Food, energy &amp; income burden — flagship</span></span>
+        </button>
+        <button class="nav-item" data-section="scorecard" type="button">
+          <span class="nav-icon" aria-hidden="true">📋</span>
+          <span class="nav-text"><strong>Better World Scorecard</strong><span>12 dignity indicators (wiring in progress)</span></span>
+        </button>
+        <button class="nav-item" data-section="media" type="button">
+          <span class="nav-icon" aria-hidden="true">📺</span>
+          <span class="nav-text"><strong>Media Attention</strong><span>YouTube overall / left / right + timeline</span></span>
+        </button>
+        <button class="nav-item" data-section="associations" type="button">
+          <span class="nav-icon" aria-hidden="true">🔗</span>
+          <span class="nav-text"><strong>Documented Associations</strong><span>Epstein DAI — presence ≠ guilt</span></span>
+        </button>
+        <button class="nav-item" data-section="updates" type="button">
+          <span class="nav-icon" aria-hidden="true">📰</span>
+          <span class="nav-text"><strong>Updates</strong><span>NEWS feed &amp; corrections trail</span></span>
+        </button>
+        <button class="nav-item" data-section="standards" type="button">
+          <span class="nav-icon" aria-hidden="true">📐</span>
+          <span class="nav-text"><strong>Standards</strong><span>Methodology, charter, sources</span></span>
+        </button>
+      </nav>
+      <div class="sidebar-foot">
+        Jesus-shaped but nonsectarian. Peaceful civic purpose. Companion:
+        <a class="inline" href="../youtube-audiences-site/" rel="noopener">YouTube Audiences</a>
+        (kept intact).
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="topbar">
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Open menu">☰</button>
+        <div>
+          <h1 class="page-title" id="pageTitle">General</h1>
+          <p class="page-sub" id="pageSub">Overview &amp; moral standards</p>
+        </div>
+      </div>
+      <p id="dataError" class="callout warn" style="display:none"></p>
+
+      <!-- GENERAL -->
+      <section class="section active" id="sec-general" data-title="General" data-sub="Overview, Human Dignity &amp; Household Security, what you can do">
+        <div class="prose">
+          <h2>Why this site exists</h2>
+          <p><strong>Settings of Humanity</strong> is a unified public civic-data workspace — laid out like a desktop Settings app — so citizens can inspect burdens that actually hit households before diving into partisan attention markets.</p>
+          <div class="callout">
+            <strong>Editorial filter:</strong> Does this claim tell the truth, protect dignity, make vulnerable suffering visible, avoid false witness, and help citizens act constructively?
+          </div>
+          <p>Charter (nonnegotiable): truth before virality; human dignity; poverty focus; evidence hierarchy; causation discipline (separate <em>changed-after</em> / <em>correlated</em> / <em>plausibly contributed</em> / <em>caused</em>); method transparency; fair representation + right of response; visible corrections; peaceful civic purpose. No clickbait, rage-bait, tribal framing, or dehumanization.</p>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <span class="badge">Flagship</span>
+            <h3 style="margin-top:.4rem">Human Dignity &amp; Household Security</h3>
+            <p>Food and energy as % of income, income vs politics overlays, with explicit caveats. Start here.</p>
+            <p style="margin-top:.5rem"><a class="inline" href="#household">Open Household Security →</a></p>
+          </div>
+          <div class="card">
+            <h3>Better World Scorecard</h3>
+            <p>Twelve dignity indicators — definitions, sources, geography, and “politicians may falsely claim credit by…” for each. Many cells: data wiring soon.</p>
+            <p style="margin-top:.5rem"><a class="inline" href="#scorecard">View scorecard →</a></p>
+          </div>
+          <div class="card">
+            <h3>As-of snapshot</h3>
+            <p>Data vintage <strong>2026-09-12</strong>. Numbers embedded from existing CSV/JSON exports — not invented for launch copy.</p>
+          </div>
+        </div>
+
+        <div class="prose">
+          <h2>Moral standards (short)</h2>
+          <ul>
+            <li>People who are poor or precarious are not props for virality.</li>
+            <li>Documented association is not guilt; disagreement is not dehumanization.</li>
+            <li>Media attention size ≠ moral priority — we show attention markets separately from household burdens.</li>
+            <li>When we are wrong, we correct in public on Updates and Standards.</li>
+          </ul>
+          <h2>What you can do</h2>
+          <ol>
+            <li>Read <strong>Household Security</strong> charts with the causation labels — do not treat correlation as credit.</li>
+            <li>Use the Scorecard definitions when evaluating claims about “solving” poverty or crime.</li>
+            <li>Share method notes, not rage clips. Link the Standards page when citing numbers.</li>
+            <li>Offer a right of response: if you are named in Documented Associations and have a correction, that belongs in the corrections log.</li>
+            <li>Act locally where burdens bite: food banks, utility assistance, housing orgs — evidence informs, neighbors serve.</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- HOUSEHOLD -->
+      <section class="section" id="sec-household" data-title="Household Security" data-sub="Flagship — food, energy &amp; income burden vs politics (correlation ≠ causation)">
+        <div class="callout warn">
+          <strong>Flagship framing:</strong> Household cost burdens are the primary civic signal. Politics overlays answer “how do burdens co-vary with voting patterns?” — they do <em>not</em> prove that a party or governor caused the burden. We label relationships as <strong>correlated</strong> unless a stronger causal design is documented.
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="stat" id="statFoodMean">—</div>
+            <div class="stat-label">Mean food-burden proxy (% MHI, 19 states)</div>
+            <p style="margin-top:.4rem;font-size:.8rem" id="statFoodCorr">r vs lean</p>
+          </div>
+          <div class="card">
+            <div class="stat" id="statElecMean">—</div>
+            <div class="stat-label">Mean electricity burden (% MHI @ 900 kWh)</div>
+            <p style="margin-top:.4rem;font-size:.8rem">US avg <span id="statElecAvg">—</span></p>
+          </div>
+          <div class="card">
+            <div class="stat" id="statCounties">—</div>
+            <div class="stat-label">Counties in income–politics map</div>
+            <p style="margin-top:.4rem;font-size:.8rem" id="statIncomeCorr">r lean vs income</p>
+          </div>
+        </div>
+
+        <div class="prose">
+          <h2>Food burden</h2>
+          <p>Proxy: standardized restaurant basket × 8 visits/month ÷ annual median household income. Covered: <strong>19 states / 24 metros</strong> in the pilot. Highest burden states in export: FL (~5.5%), AZ, MO; lowest: VA, CO, TX. Correlation of food burden vs right-lean (vote-weighted) ≈ <strong>+0.40</strong> — <em>correlated</em>, not caused.</p>
+        </div>
+        <div class="two-col">
+          <figure class="figure">
+            <img src="assets/food_burden_vs_politics_states.png" alt="Food burden vs politics by state" loading="lazy" />
+            <figcaption>Food burden vs politics — states</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="assets/food_burden_vs_politics_metros.png" alt="Food burden vs politics by metro" loading="lazy" />
+            <figcaption>Food burden vs politics — metros</figcaption>
+          </figure>
+        </div>
+        <figure class="figure">
+          <img src="assets/food_burden_vs_governor_history_states.png" alt="Food burden vs governor party history" loading="lazy" />
+          <figcaption>Food burden vs long-run governor party share — historical context, not a causal verdict</figcaption>
+        </figure>
+
+        <div class="prose">
+          <h2>Energy burden (electricity + gas where available)</h2>
+          <p>EIA residential electricity ~<strong>Jun 2026</strong>: US average ≈ <strong>19.4 ¢/kWh</strong>. At 900 kWh/mo, mean burden ≈ <strong>2.6%</strong> of MHI (HI ~6.0%; UT ~1.5%). Correlation of ¢/kWh vs right-lean ≈ <strong>−0.56</strong> across states — again <em>correlated</em>. Gasoline series incomplete in some exports; combined burden charts note missing gas.</p>
+        </div>
+        <div class="two-col">
+          <figure class="figure">
+            <img src="assets/energy_burden_vs_politics_states.png" alt="Energy burden vs politics states" loading="lazy" />
+            <figcaption>Energy burden vs politics — states</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="assets/energy_burden_vs_politics_metros.png" alt="Energy burden vs politics metros" loading="lazy" />
+            <figcaption>Energy burden vs politics — metros</figcaption>
+          </figure>
+        </div>
+        <div class="two-col">
+          <figure class="figure">
+            <img src="assets/energy_vs_politics_scatter.png" alt="Energy vs politics scatter" loading="lazy" />
+            <figcaption>Energy vs politics scatter</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="assets/electricity_by_state_latest.png" alt="Electricity rates by state" loading="lazy" />
+            <figcaption>Electricity ¢/kWh by state (latest export)</figcaption>
+          </figure>
+        </div>
+        <figure class="figure">
+          <img src="assets/energy_burden_vs_governor_history_states.png" alt="Energy burden vs governor history" loading="lazy" />
+          <figcaption>Energy burden vs governor history</figcaption>
+        </figure>
+
+        <div class="prose">
+          <h2>Income vs politics</h2>
+          <p>Census SAIPE 2023 MHI × 2024 county presidential lean (GOP−DEM share). <strong>3,116 counties</strong>; correlation lean-right vs income ≈ <strong>−0.31</strong>. High-income counties lean left on average in this vintage — <em>correlated</em> pattern, composition-heavy, not a moral ranking of voters.</p>
+        </div>
+        <figure class="figure">
+          <img src="assets/income_vs_politics_scatter.png" alt="Income vs politics scatter" loading="lazy" />
+          <figcaption>Median household income vs political lean — counties</figcaption>
+        </figure>
+
+        <div class="prose">
+          <h2>Restaurant price index pilot</h2>
+          <p>Companion restaurant-inflation exports: 24 metros / 229 counties; lean-right vs price index ≈ <strong>−0.45</strong> (metros, vote-weighted). Vote-weighting matters (e.g., Detroit lean can flip vs unweighted).</p>
+        </div>
+        <div class="two-col">
+          <figure class="figure">
+            <img src="assets/price_vs_politics_scatter.png" alt="Price vs politics scatter" loading="lazy" />
+            <figcaption>Restaurant price index vs politics</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="assets/basket_price_by_metro.png" alt="Basket price by metro" loading="lazy" />
+            <figcaption>Basket price by metro</figcaption>
+          </figure>
+        </div>
+
+        <div class="callout">
+          <strong>Caveats (always on):</strong> Basket and kWh assumptions are proxies. Missing metros ≠ zero burden. Governor history is temporal context (<em>changed-after</em> risk is high). Politicians may falsely claim credit for commodity price swings, weather, or federal transfers.
+        </div>
+      </section>
+
+      <!-- SCORECARD -->
+      <section class="section" id="sec-scorecard" data-title="Better World Scorecard" data-sub="12 Human Dignity &amp; Household Security indicators">
+        <div class="prose">
+          <p>Structure for a dignity-first scorecard. Prefer US county/metro at launch, then expand. Each indicator lists definition, best source, geography, caveats, and a dedicated “politicians may falsely claim credit by…” warning.</p>
+          <p><span class="badge warn">partial</span> = some wiring from existing exports · <span class="badge neutral">data wiring soon</span> = definition ready, series not yet embedded.</p>
+        </div>
+        <div class="prose" id="scorecardList"><p>Loading indicators…</p></div>
+      </section>
+
+      <!-- MEDIA -->
+      <section class="section" id="sec-media" data-title="Media Attention" data-sub="YouTube overall / left / right — attention ≠ moral priority">
+        <div class="callout">
+          Framing: <strong>asymmetric digital engagement / temporal co-movement — not vote prediction.</strong> Overall Top 100 is global entertainment; political lists are curated. No US left/right commentary channel sits in the global Top 100 (vidIQ Sep 2026).
+        </div>
+        <div class="grid">
+          <div class="card">
+            <div class="stat" id="statYtLeft">—</div>
+            <div class="stat-label">Left list combined subs (n≈32)</div>
+          </div>
+          <div class="card">
+            <div class="stat" id="statYtRight">—</div>
+            <div class="stat-label">Right list combined subs (n≈42)</div>
+          </div>
+          <div class="card">
+            <div class="stat">0</div>
+            <div class="stat-label">Political L/R channels in overall Top 100</div>
+          </div>
+        </div>
+
+        <div class="tabs yt-tabs">
+          <button type="button" class="tab active" data-yt="overall">Overall Top 10</button>
+          <button type="button" class="tab" data-yt="left">Left Top 10</button>
+          <button type="button" class="tab" data-yt="right">Right Top 10</button>
+          <button type="button" class="tab" data-yt="charts">Comparison charts</button>
+          <button type="button" class="tab" data-yt="timeline">Historical timeline</button>
+        </div>
+
+        <div class="yt-panel active" data-yt="overall">
+          <div class="prose"><p>SocialBlade US News &amp; Politics top by subscribers (fetched 2026-09-12) — includes institutional and non-US channels.</p></div>
+          <div class="table-wrap" id="ytOverallTable"></div>
+        </div>
+        <div class="yt-panel" data-yt="left" style="display:none">
+          <div class="prose"><p>Frame A left commentary / activist list (analyst lean coding). Confidence noted in source CSV.</p></div>
+          <div class="table-wrap" id="ytLeftTable"></div>
+        </div>
+        <div class="yt-panel" data-yt="right" style="display:none">
+          <div class="prose"><p>Frame A right commentary / activist list (analyst lean coding).</p></div>
+          <div class="table-wrap" id="ytRightTable"></div>
+        </div>
+        <div class="yt-panel" data-yt="charts" style="display:none">
+          <figure class="figure">
+            <img src="assets/youtube_top10_overall_left_right_infographic.png" alt="YouTube top 10 overall left right" loading="lazy" />
+            <figcaption>Top 10 overall / left / right infographic</figcaption>
+          </figure>
+          <div class="two-col">
+            <figure class="figure">
+              <img src="assets/youtube_overall_vs_left_vs_right_subs.png" alt="Subs comparison" loading="lazy" />
+              <figcaption>Overall vs left vs right — subscribers</figcaption>
+            </figure>
+            <figure class="figure">
+              <img src="assets/youtube_overall_vs_left_vs_right_views.png" alt="Views comparison" loading="lazy" />
+              <figcaption>Overall vs left vs right — views</figcaption>
+            </figure>
+          </div>
+          <div class="two-col">
+            <figure class="figure">
+              <img src="assets/youtube_top15_left_vs_right_comparison.png" alt="Top 15 left vs right" loading="lazy" />
+              <figcaption>Top 15 left vs right</figcaption>
+            </figure>
+            <figure class="figure">
+              <img src="assets/youtube_left_vs_right_subscriber_distribution.png" alt="Subscriber distribution" loading="lazy" />
+              <figcaption>Left vs right subscriber distribution</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="yt-panel" data-yt="timeline" style="display:none">
+          <div class="callout">
+            Interactive charts from fixed early panels (Left n≈8 · Right n≈11 · Mega control n≈7). Hover for exact values. Framing: <strong>attention co-movement — not vote prediction</strong>. YoY usable mainly 2017–2026.
+          </div>
+          <div class="chart-card">
+            <h3>Historical levels — Left / Right / Mega</h3>
+            <p class="chart-hint">Partisan panels in millions (left axis). Mega entertainment control in billions (right axis).</p>
+            <div class="chart-wrap"><canvas id="sohChartLevels" aria-label="Historical subscriber levels"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <h3>Right vs Left — subscriber levels</h3>
+            <p class="chart-hint">Same fixed early panels, side-by-side comparison.</p>
+            <div class="chart-wrap"><canvas id="sohChartRvL" aria-label="Right versus Left subscribers"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <h3>Change over time — YoY % (Left · Right · Mega)</h3>
+            <p class="chart-hint">Primary methodology feature: growth velocity, not raw levels. Mega = non-political control.</p>
+            <div class="chart-wrap"><canvas id="sohChartYoy" aria-label="Year over year growth percent"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <h3>Right − Left YoY gap</h3>
+            <p class="chart-hint">Positive = right panel accelerated faster that year.</p>
+            <div class="chart-wrap chart-wrap-sm"><canvas id="sohChartGap" aria-label="Right minus Left growth gap"></canvas></div>
+          </div>
+          <details class="static-exports">
+            <summary>Static PNG exports (print / share)</summary>
+            <div class="two-col" style="margin-top:.75rem">
+              <figure class="figure"><img src="assets/youtube_historical_left_right_mega_levels.png" alt="Levels PNG" loading="lazy" /><figcaption>Levels export</figcaption></figure>
+              <figure class="figure"><img src="assets/youtube_right_vs_left_historical.png" alt="RvL PNG" loading="lazy" /><figcaption>Right vs Left export</figcaption></figure>
+            </div>
+            <div class="two-col">
+              <figure class="figure"><img src="assets/youtube_yoy_change_mega_right_left.png" alt="YoY PNG" loading="lazy" /><figcaption>YoY change export</figcaption></figure>
+              <figure class="figure"><img src="assets/youtube_net_new_subs_mega_right_left.png" alt="Net new PNG" loading="lazy" /><figcaption>Net new subs export</figcaption></figure>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <!-- ASSOCIATIONS -->
+      <section class="section" id="sec-associations" data-title="Documented Associations" data-sub="Epstein DAI summary — presence ≠ guilt">
+        <div class="callout danger">
+          <strong>Presence ≠ guilt. DAI ≠ criminality.</strong> Appearance in court files, flight logs, contact books, or news coverage does <em>not</em> mean criminal conduct, endorsement, or moral equivalence. This is a research visualization of documented association layers — provisional and incomplete.
+        </div>
+        <div id="daiPartyStats"></div>
+        <p style="margin:.5rem 0 .25rem;font-size:.85rem">By band: <span id="daiBands"></span></p>
+
+        <div class="two-col">
+          <figure class="figure">
+            <img src="assets/party_dai_by_party.png" alt="DAI by party" loading="lazy" />
+            <figcaption>Officials with DAI &gt; none by party (provisional comprehensive_match_v1)</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="assets/dai_officials_38_infographic.png" alt="38 officials DAI infographic" loading="lazy" />
+            <figcaption>38 officials DAI overview</figcaption>
+          </figure>
+        </div>
+        <div class="two-col">
+          <figure class="figure">
+            <img src="assets/epstein_connection_heatmap.png" alt="Connection heatmap" loading="lazy" />
+            <figcaption>Connection heatmap (intensity ≠ guilt)</figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="assets/business_leaders_ranked_bar.png" alt="Business leaders DAI" loading="lazy" />
+            <figcaption>Business leaders ranked (separate cohort)</figcaption>
+          </figure>
+        </div>
+
+        <div class="prose">
+          <h2>Methodology (summary)</h2>
+          <ul>
+            <li>Layer A (primary documents) feeds DAI; news corroboration is separate.</li>
+            <li>Class C alone cannot push a person above Limited.</li>
+            <li>Public DAI requires identity confidence P1–P3.</li>
+            <li>Same document_id counted once in aggregates.</li>
+            <li>45 names logged as excluded (oversight-only, news-only, collisions, etc.) — exclusion is part of fair representation.</li>
+            <li>Roster still incomplete vs full public DOJ / Oversight dumps.</li>
+          </ul>
+          <p>Party split in current export: <strong>D 18 / R 17 / I 3</strong> among 38 officials with DAI &gt; none. Do not weaponize near-parity; do not erase it either.</p>
+          <p><strong>Right of response:</strong> factual corrections belong in the Standards corrections log.</p>
+        </div>
+      </section>
+
+      <!-- UPDATES -->
+      <section class="section" id="sec-updates" data-title="Updates" data-sub="NEWS feed from updates.json">
+        <div class="prose" id="updatesList"><p>Loading feed…</p></div>
+      </section>
+
+      <!-- STANDARDS -->
+      <section class="section" id="sec-standards" data-title="Standards" data-sub="Methodology, corrections, actionability, sources">
+        <div class="prose">
+          <h2>Charter</h2>
+          <p>Jesus-shaped but nonsectarian: truth before virality; human dignity; poverty focus; evidence hierarchy; causation discipline; method transparency; fair representation + right of response; visible corrections; peaceful civic purpose. No clickbait / rage-bait / tribal framing / dehumanization.</p>
+
+          <h2>Causation discipline</h2>
+          <ol>
+            <li><strong>Changed-after</strong> — temporal sequence only; weakest.</li>
+            <li><strong>Correlated</strong> — statistical association with disclosed sample and measure.</li>
+            <li><strong>Plausibly contributed</strong> — mechanism + evidence beyond correlation; still not proof of sole cause.</li>
+            <li><strong>Caused</strong> — reserved for designs that can support causal claims; we rarely reach this bar on observational civic overlays.</li>
+          </ol>
+
+          <h2>Actionability standard</h2>
+          <p>Prefer metrics citizens or local institutions can act on (burdens, access, victimization, housing exits) over metrics that only fuel national tribal identity. Attention-market charts are labeled as attention, not virtue.</p>
+
+          <h2>Corrections log</h2>
+          <ul>
+            <li><strong>2026-09-12</strong> — Site launch. No post-launch corrections yet. Errors should be logged here with date, what was wrong, and the fix.</li>
+          </ul>
+
+          <h2>Key sources (launch)</h2>
+          <ul>
+            <li>Census SAIPE / ACS (income, poverty forthcoming)</li>
+            <li>EIA electric sales &amp; revenue; gasoline where present</li>
+            <li>Restaurant basket pilots (DoorDash / local scrapes) — restaurant-inflation exports</li>
+            <li>2024 county presidential returns (lean construction)</li>
+            <li>SocialBlade / vidIQ YouTube snapshots (2026-09-12)</li>
+            <li>Epstein-related public court / flight / contact documentation via political-data DAI v2 methodology</li>
+            <li>Planned: HUD PIT, BJS NCVS, CDC WONDER, EPA EJScreen, Pew GR/SHI, V-Dem (cited carefully)</li>
+          </ul>
+
+          <h2>Companion</h2>
+          <p><code>/workspace/youtube-audiences-site/</code> remains the dedicated YouTube Audiences experience; this umbrella links it without replacing it.</p>
+        </div>
+      </section>
+
+      <p class="footer-note">Settings of Humanity · as of 2026-09-12 · peaceful civic purpose</p>
+    </main>
+  </div>
+  <script>
+    // Show only active yt panel
+    document.addEventListener('click', (e) => {
+      const tab = e.target.closest('.yt-tabs .tab');
+      if (!tab) return;
+      document.querySelectorAll('.yt-panel').forEach(p => {
+        p.style.display = p.dataset.yt === tab.dataset.yt ? '' : 'none';
+        p.classList.toggle('active', p.dataset.yt === tab.dataset.yt);
+      });
+    });
+  </script>
+  <script src="js/app.js"></script>
+</body>
+</html>
