@@ -1,0 +1,61 @@
+{
+  "as_of": "2026-09-12",
+  "items": [
+    {
+      "id": "2026-09-12-launch",
+      "date": "2026-09-12",
+      "title": "Settings of Humanity launches",
+      "tags": ["launch", "charter"],
+      "summary": "One unified public civic-data site with a settings-app layout. Flagship focus: Household Security (food, energy, income burden) before tribal scorekeeping. Companion YouTube Audiences site remains intact.",
+      "body": "This site exists to make vulnerable household suffering visible with evidence hierarchy and causation discipline — not to win arguments. Editorial filter: Does this claim tell the truth, protect dignity, make vulnerable suffering visible, avoid false witness, and help citizens act constructively?"
+    },
+    {
+      "id": "2026-09-12-col-charts",
+      "date": "2026-09-12",
+      "title": "Cost-of-living burden charts published",
+      "tags": ["household-security", "food", "energy"],
+      "summary": "Food-burden proxy across 19 states / 24 metros and electricity burden across 51 states (EIA, ~Jun 2026) with politics overlays and governor-history context.",
+      "body": "Fast-food basket proxy averages ~4.8% of median household income in covered states (range ~4.0–5.5%). Electricity burden averages ~2.6% of income at 900 kWh/mo (HI highest at ~6.0%). Correlations with partisan lean are reported as correlation, not causation. Method notes and caveats live in Standards."
+    },
+    {
+      "id": "2026-09-12-youtube",
+      "date": "2026-09-12",
+      "title": "YouTube Overall vs Left vs Right comparison",
+      "tags": ["media-attention", "youtube"],
+      "summary": "SocialBlade / vidIQ Sep 2026 snapshots: Overall Top 100 (global entertainment), Left Top 10 / Right Top 10 commentary lists, and fixed-panel historical timeline. Framing: asymmetric digital engagement — not vote prediction.",
+      "body": "No US left/right political commentary channel appears in the global entertainment Top 100. Left curated list n=32 (~124.5M combined subs); Right n=42 (~131.6M). Views incomplete for some rows — we do not invent missing views."
+    },
+    {
+      "id": "2026-09-12-dai",
+      "date": "2026-09-12",
+      "title": "Documented Association Index (DAI) summary — Epstein files",
+      "tags": ["documented-associations", "methodology"],
+      "summary": "38 officials with DAI > none in the provisional comprehensive_match_v1 batch: D 18 / R 17 / I 3. Presence ≠ guilt. Party charts and exclusion log published for fair representation.",
+      "body": "DAI is a research visualization of documented association layers (primary documents first). News-only or oversight-adjacency alone does not invent guilt. Right of response and corrections log are in Standards. Sample remains incomplete vs full public dumps."
+    },
+    {
+      "id": "2026-09-12-charter",
+      "date": "2026-09-12",
+      "title": "Editorial charter posted",
+      "tags": ["standards", "charter"],
+      "summary": "Jesus-shaped but nonsectarian: truth before virality; human dignity; poverty focus; evidence hierarchy; causation discipline; method transparency; fair representation + right of response; visible corrections; peaceful civic purpose.",
+      "body": "We separate changed-after / correlated / plausibly contributed / caused. No clickbait, rage-bait, tribal framing, or dehumanization. Politicians may falsely claim credit — scorecard cards call that out explicitly."
+    },
+    {
+      "id": "2026-09-12-daily-tracking",
+      "date": "2026-09-12",
+      "title": "Daily tracking cadence begins",
+      "tags": ["updates", "ops"],
+      "summary": "NEWS feed will log chart refreshes, data wiring for scorecard indicators, methodology amendments, and corrections. Corrections are first-class, not footnotes.",
+      "body": "Planned near-term wiring: rent/housing burden, child poverty (Census SAIPE), homelessness (HUD PIT), real median income — prefer US county/metro launch then expand. Many Better World Scorecard cells remain 'data wiring soon' by design."
+    },
+    {
+      "id": "2026-09-11-restaurant-pilot",
+      "date": "2026-09-11",
+      "title": "Restaurant basket price vs politics pilot",
+      "tags": ["household-security", "food"],
+      "summary": "24-metro / 229-county restaurant price index pilot: lean-right vs price index correlation about −0.45 (metros, vote-weighted) — again correlation, not causation.",
+      "body": "Detroit example shows unweighted vs vote-weighted lean can flip labels; we prefer vote-weighted metro lean. Basket construction and DoorDash demos documented in companion restaurant-inflation exports."
+    }
+  ]
+}

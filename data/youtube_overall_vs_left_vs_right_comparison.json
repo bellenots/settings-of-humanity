@@ -1,0 +1,118 @@
+{
+  "as_of": "2026-09-12",
+  "methodology": {
+    "frame_A": "Partisan commentary / activist / cable-opinion / creator political channels. Excludes ABC/CBS/NBC institutional and Jordan Peterson adjacent.",
+    "frame_B": "Adds major news networks coded by lean: Fox+LiveNOW\u2192Right; CNN+MS NOW+Vox\u2192Left/center-left; ABC/CBS/PBS\u2192Center (not summed into L/R).",
+    "views_policy": "Lifetime total views when available from SocialBlade; blank if missing \u2014 no invented views.",
+    "cannot_honestly_reach_100_each": true,
+    "note": "Chaotic Era Jul 2026 published top-100-political split remains best apples-to-apples for N=100 each side."
+  },
+  "overall_top100": {
+    "source": "vidIQ Sep 2026",
+    "n": 100,
+    "subscribers": {
+      "n": 100,
+      "sum": 8344299998,
+      "mean": 83442999.98,
+      "median": 67700000.0,
+      "max": 516000000,
+      "p90": 121000000
+    },
+    "views": {
+      "n_with_views": 100,
+      "sum": 5444430000000,
+      "mean": 54444300000,
+      "median": 38720000000.0,
+      "max": 354690000000
+    },
+    "us_left_right_political_channels_in_list": [],
+    "gap_analysis": "No US left/right political commentary or partisan news channel appears in the overall global top 100 by subscribers. Floor of top 100 is ~51.2M subs (ABP NEWS); largest Frame A political channels are ~6\u20138M."
+  },
+  "frame_A_left": {
+    "subscribers": {
+      "n": 26,
+      "sum": 56151000,
+      "mean": 2159653.846153846,
+      "median": 1450000.0,
+      "max": 6720000,
+      "min": 44000,
+      "p90": 5230000.0
+    },
+    "views": {
+      "n_with_views": 21,
+      "sum": 44912394567,
+      "mean": 2138685455.5714285,
+      "median": 807232911,
+      "max": 10742154003,
+      "p90": 5460000000
+    }
+  },
+  "frame_A_right": {
+    "subscribers": {
+      "n": 50,
+      "sum": 115481000,
+      "mean": 2309620,
+      "median": 1845000.0,
+      "max": 7670000,
+      "min": 105000,
+      "p90": 5892000.0
+    },
+    "views": {
+      "n_with_views": 32,
+      "sum": 46879031294,
+      "mean": 1464969727.9375,
+      "median": 1036088528.0,
+      "max": 5028466191,
+      "p90": 3314140142.499999
+    }
+  },
+  "frame_B_optional_sums_subscribers": {
+    "left_commentary_plus_CNN_MSNOW_Vox": 98631000,
+    "right_commentary_plus_Fox_LiveNOW": 136601000
+  },
+  "chaotic_era_benchmarks": {
+    "jul_2026_top100_political": {
+      "left_n": 36,
+      "right_n": 64,
+      "left_cumulative_subs": 151700000,
+      "right_cumulative_subs": 251600000,
+      "source": "Chaotic Era / Kyle Tharp, Jul 7 2026 \u2014 Liberals are gaining ground on political YouTube"
+    },
+    "apr_2026_top100_political": {
+      "left_n": 36,
+      "right_n": 64,
+      "left_cumulative_subs": 149900000,
+      "right_cumulative_subs": 248600000,
+      "source": "Chaotic Era Apr 6 2026"
+    },
+    "jul_2025_top100_each_side": {
+      "left_cumulative_subs": 163900000,
+      "right_cumulative_subs": 233900000,
+      "source": "Chaotic Era (reported earlier Jul 2025 top-100-right vs top-100-left)"
+    }
+  },
+  "headline": {
+    "n_left_frame_A": 26,
+    "n_right_frame_A": 50,
+    "left_sum_subs_M": 56.15,
+    "right_sum_subs_M": 115.48,
+    "left_median_subs_M": 1.45,
+    "right_median_subs_M": 1.845,
+    "right_minus_left_sum_subs_M": 59.33,
+    "overall_top100_sum_subs_B": 8.34,
+    "any_political_in_overall_top100": false,
+    "files": {
+      "left_csv": "/workspace/political-data/exports/youtube_left_political_channels.csv",
+      "right_csv": "/workspace/political-data/exports/youtube_right_political_channels.csv",
+      "frameB_csv": "/workspace/political-data/exports/youtube_frameB_news_and_adjacent.csv",
+      "report_md": "/workspace/political-data/exports/youtube_overall_vs_left_vs_right_comparison.md",
+      "report_json": "/workspace/political-data/exports/youtube_overall_vs_left_vs_right_comparison.json",
+      "charts": [
+        "/workspace/political-data/exports/youtube_combined_subscribers_comparison.png",
+        "/workspace/political-data/exports/youtube_political_subscribers_comparison.png",
+        "/workspace/political-data/exports/youtube_left_vs_right_subscriber_distribution.png",
+        "/workspace/political-data/exports/youtube_top15_left_vs_right_comparison.png"
+      ]
+    }
+  }
+}

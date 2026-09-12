@@ -1,0 +1,18 @@
+{
+  "food": {
+    "n": 24,
+    "corr": 0.3969879648191293,
+    "y": "fastfood_proxy_pct_income (basket\u00d78/mo / annual MHI)",
+    "lean": "vote_weighted"
+  },
+  "energy_elec": {
+    "n": 100,
+    "corr": -0.11485138946247439,
+    "kwh_mo": 900
+  },
+  "energy_combined": {
+    "n": 45,
+    "corr": 0.13683829859932203,
+    "gal_mo": 45
+  }
+}

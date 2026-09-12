@@ -1,0 +1,109 @@
+{
+  "as_of": "2026-09-12",
+  "overall": {
+    "cohort": "Overall Top 100 (vidIQ)",
+    "n": 100,
+    "n_with_views": 100,
+    "subs_sum": 8344299998,
+    "subs_mean": 83442999.98,
+    "subs_median": 67700000.0,
+    "subs_max": 516000000,
+    "subs_p90": 121200000.00000001,
+    "views_sum": 5444430000000,
+    "views_median": 38720000000.0,
+    "views_max": 354690000000
+  },
+  "left": {
+    "cohort": "Left political (n=32)",
+    "n": 32,
+    "n_with_views": 16,
+    "subs_sum": 124505000,
+    "subs_mean": 3890781.25,
+    "subs_median": 2265000.0,
+    "subs_max": 19800000,
+    "subs_p90": 9042000.000000006,
+    "views_sum": 92499100000,
+    "views_median": 3645000000.0,
+    "views_max": 21420000000
+  },
+  "right": {
+    "cohort": "Right political (n=42)",
+    "n": 42,
+    "n_with_views": 23,
+    "subs_sum": 131559000,
+    "subs_mean": 3132357.1428571427,
+    "subs_median": 2600000.0,
+    "subs_max": 15500000,
+    "subs_p90": 5899000.0,
+    "views_sum": 67593560000,
+    "views_median": 1380000000,
+    "views_max": 26710000000
+  },
+  "left_top15": {
+    "cohort": "Left Top 15",
+    "n": 15,
+    "n_with_views": 15,
+    "subs_sum": 102780000,
+    "subs_mean": 6852000,
+    "subs_median": 5360000,
+    "subs_max": 19800000,
+    "subs_p90": 11612000.0,
+    "views_sum": 92339750000,
+    "views_median": 3800000000,
+    "views_max": 21420000000
+  },
+  "right_top15": {
+    "cohort": "Right Top 15",
+    "n": 15,
+    "n_with_views": 12,
+    "subs_sum": 82360000,
+    "subs_mean": 5490666.666666667,
+    "subs_median": 4150000,
+    "subs_max": 15500000,
+    "subs_p90": 7394000.0,
+    "views_sum": 57623880000,
+    "views_median": 3025000000.0,
+    "views_max": 26710000000
+  },
+  "left_indie": {
+    "cohort": "Left indie/commentary (n=25)",
+    "n": 25,
+    "n_with_views": 9,
+    "subs_sum": 58915000,
+    "subs_mean": 2356600,
+    "subs_median": 1600000,
+    "subs_max": 6720000,
+    "subs_p90": 5234000.0,
+    "views_sum": 35639100000,
+    "views_median": 3800000000,
+    "views_max": 10600000000
+  },
+  "right_indie": {
+    "cohort": "Right indie/commentary (n=38)",
+    "n": 38,
+    "n_with_views": 19,
+    "subs_sum": 104489000,
+    "subs_mean": 2749710.5263157897,
+    "subs_median": 2550000.0,
+    "subs_max": 7670000,
+    "subs_p90": 5893000.0,
+    "views_sum": 28563560000,
+    "views_median": 1100000000,
+    "views_max": 4790000000
+  },
+  "overlap_with_overall_top100": {
+    "left": [],
+    "right": []
+  },
+  "chaotic_era_jul2026": {
+    "note": "Among 100 largest political & political-adjacent channels: 36 left / 64 right; cumulative subs right 251.6M vs left 151.7M",
+    "source": "https://www.chaoticera.news/p/liberals-are-gaining-ground-on-political-youtube-can-it-last"
+  },
+  "caveats": [
+    "Overall top 100 is global entertainment/kids/music \u2014 not comparable audience genre to political channels.",
+    "Left/right lists are curated from SocialBlade US News & Politics + Feedspot; not a complete official YouTube ranking of all partisan channels.",
+    "Views missing for some Feedspot-only rows; sums use available views only.",
+    "Lean coding is analyst judgment (cable leans, commentary sides).",
+    "Left list n=32; Right list n=42 \u2014 could not fill both to exactly 100 with high-confidence metrics for every slot."
+  ]
+}

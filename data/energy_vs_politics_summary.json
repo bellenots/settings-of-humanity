@@ -1,0 +1,63 @@
+{
+  "elec_period": "2026-06",
+  "gas_period": NaN,
+  "n_states_elec": 51,
+  "n_states_gas": 0,
+  "corr_elec_vs_lean": -0.5559826592518372,
+  "corr_gas_vs_lean": null,
+  "us_avg_elec_cents": 19.422549019607843,
+  "top5_elec": [
+    {
+      "state": "HI",
+      "elec_cents_kwh": 52.72,
+      "lean_right": -0.2310485174211004
+    },
+    {
+      "state": "CA",
+      "elec_cents_kwh": 34.74,
+      "lean_right": -0.20138532703724046
+    },
+    {
+      "state": "MA",
+      "elec_cents_kwh": 29.61,
+      "lean_right": -0.2534393996473658
+    },
+    {
+      "state": "ME",
+      "elec_cents_kwh": 29.59,
+      "lean_right": -0.06937302661253947
+    },
+    {
+      "state": "NY",
+      "elec_cents_kwh": 29.49,
+      "lean_right": -0.12689486117138934
+    }
+  ],
+  "bottom5_elec": [
+    {
+      "state": "NV",
+      "elec_cents_kwh": 13.11,
+      "lean_right": 0.030985156649874734
+    },
+    {
+      "state": "NE",
+      "elec_cents_kwh": 13.25,
+      "lean_right": 0.20568985777467141
+    },
+    {
+      "state": "UT",
+      "elec_cents_kwh": 13.37,
+      "lean_right": 0.2159022709753211
+    },
+    {
+      "state": "LA",
+      "elec_cents_kwh": 13.49,
+      "lean_right": 0.2200500753621744
+    },
+    {
+      "state": "TN",
+      "elec_cents_kwh": 14.07,
+      "lean_right": 0.29719883731480556
+    }
+  ]
+}

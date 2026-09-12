@@ -1,0 +1,14 @@
+{
+  "n_counties_plotted": 229,
+  "n_metros": 24,
+  "metro_lean_method": "vote_weighted",
+  "formula": "(sum votes_gop - sum votes_dem) / sum total_votes",
+  "corr_lean_right_vs_index_counties": -0.3717502144335732,
+  "corr_lean_right_vs_index_metros_weighted": -0.4507374492574011,
+  "bubble_size": "Census CBSA population (area proportional)",
+  "detroit": {
+    "lean_unweighted": 0.1208541440288186,
+    "lean_vote_weighted": -0.07143677055092322,
+    "pres_party_weighted": "Democratic"
+  }
+}

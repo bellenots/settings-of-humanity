@@ -1,0 +1,274 @@
+{
+  "as_of": "2026-09-12",
+  "overall_top10_us_news_politics": [
+    {
+      "rank": 1,
+      "channel": "CNN",
+      "subscribers": 19800000,
+      "subscribers_display": "19.8M",
+      "views_display": "21.42B",
+      "lean": "Left"
+    },
+    {
+      "rank": 2,
+      "channel": "ABC News",
+      "subscribers": 19800000,
+      "subscribers_display": "19.8M",
+      "views_display": "18.91B",
+      "lean": "Center/Institutional"
+    },
+    {
+      "rank": 3,
+      "channel": "Fox News",
+      "subscribers": 15500000,
+      "subscribers_display": "15.5M",
+      "views_display": "26.71B",
+      "lean": "Right"
+    },
+    {
+      "rank": 4,
+      "channel": "DALLMYD",
+      "subscribers": 13800000,
+      "subscribers_display": "13.8M",
+      "views_display": "2.21B",
+      "lean": "Non-political / other"
+    },
+    {
+      "rank": 5,
+      "channel": "Inside Edition",
+      "subscribers": 13800000,
+      "subscribers_display": "13.8M",
+      "views_display": "25.87B",
+      "lean": "Center/Institutional"
+    },
+    {
+      "rank": 6,
+      "channel": "Vox",
+      "subscribers": 12700000,
+      "subscribers_display": "12.7M",
+      "views_display": "3.85B",
+      "lean": "Left"
+    },
+    {
+      "rank": 7,
+      "channel": "Business Insider",
+      "subscribers": 10600000,
+      "subscribers_display": "10.6M",
+      "views_display": "6.68B",
+      "lean": "Center/Institutional"
+    },
+    {
+      "rank": 8,
+      "channel": "N+ UNIVISION",
+      "subscribers": 10400000,
+      "subscribers_display": "10.4M",
+      "views_display": "6.3B",
+      "lean": "Non-US / International"
+    },
+    {
+      "rank": 9,
+      "channel": "MS NOW",
+      "subscribers": 9980000,
+      "subscribers_display": "9.98M",
+      "views_display": "21.14B",
+      "lean": "Left"
+    },
+    {
+      "rank": 10,
+      "channel": "24 News HD",
+      "subscribers": 9590000,
+      "subscribers_display": "9.59M",
+      "views_display": "4.57B",
+      "lean": "Non-US / International"
+    }
+  ],
+  "left_top10": [
+    {
+      "rank": 1,
+      "channel": "The Young Turks",
+      "subscribers": 6720000,
+      "subscribers_display": "6.72M",
+      "views_display": "7.54B",
+      "lean": "Left",
+      "confidence": "high"
+    },
+    {
+      "rank": 2,
+      "channel": "MeidasTouch",
+      "subscribers": 6460000,
+      "subscribers_display": "6.46M",
+      "views_display": "10.74B",
+      "lean": "Left",
+      "confidence": "high"
+    },
+    {
+      "rank": 3,
+      "channel": "Brian Tyler Cohen",
+      "subscribers": 5250000,
+      "subscribers_display": "5.25M",
+      "views_display": "5.46B",
+      "lean": "Left",
+      "confidence": "high"
+    },
+    {
+      "rank": 4,
+      "channel": "NowThis Impact",
+      "subscribers": 5210000,
+      "subscribers_display": "5.21M",
+      "views_display": "5.18B",
+      "lean": "Left",
+      "confidence": "high"
+    },
+    {
+      "rank": 5,
+      "channel": "More Perfect Union",
+      "subscribers": 3930000,
+      "subscribers_display": "3.93M",
+      "views_display": "807.2M",
+      "lean": "Left",
+      "confidence": "high"
+    },
+    {
+      "rank": 6,
+      "channel": "David Pakman Show",
+      "subscribers": 3660000,
+      "subscribers_display": "3.66M",
+      "views_display": "3.8B",
+      "lean": "Left",
+      "confidence": "high"
+    },
+    {
+      "rank": 7,
+      "channel": "Democracy Now!",
+      "subscribers": 3390000,
+      "subscribers_display": "3.39M",
+      "views_display": "1.36B",
+      "lean": "Left",
+      "confidence": "high"
+    },
+    {
+      "rank": 8,
+      "channel": "AJ+",
+      "subscribers": 2530000,
+      "subscribers_display": "2.53M",
+      "views_display": "732.5M",
+      "lean": "Left",
+      "confidence": "medium"
+    },
+    {
+      "rank": 9,
+      "channel": "Secular Talk",
+      "subscribers": 2290000,
+      "subscribers_display": "2.29M",
+      "views_display": "1.98B",
+      "lean": "Left",
+      "confidence": "high"
+    },
+    {
+      "rank": 10,
+      "channel": "The Majority Report w/ Sam Seder",
+      "subscribers": 2090000,
+      "subscribers_display": "2.09M",
+      "views_display": "1.48B",
+      "lean": "Left",
+      "confidence": "high"
+    }
+  ],
+  "right_top10": [
+    {
+      "rank": 1,
+      "channel": "Turning Point USA",
+      "subscribers": 7670000,
+      "subscribers_display": "7.67M",
+      "views_display": "3.53B",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 2,
+      "channel": "Ben Shapiro",
+      "subscribers": 6980000,
+      "subscribers_display": "6.98M",
+      "views_display": "4.79B",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 3,
+      "channel": "Benny Johnson",
+      "subscribers": 6100000,
+      "subscribers_display": "6.1M",
+      "views_display": "5.03B",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 4,
+      "channel": "Candace Owens",
+      "subscribers": 6080000,
+      "subscribers_display": "6.08M",
+      "views_display": "1.56B",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 5,
+      "channel": "StevenCrowder",
+      "subscribers": 5910000,
+      "subscribers_display": "5.91M",
+      "views_display": "2.1B",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 6,
+      "channel": "Charlie Kirk",
+      "subscribers": 5890000,
+      "subscribers_display": "5.89M",
+      "views_display": "1.38B",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 7,
+      "channel": "Tucker Carlson",
+      "subscribers": 5750000,
+      "subscribers_display": "5.75M",
+      "views_display": "1.69B",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 8,
+      "channel": "Megyn Kelly",
+      "subscribers": 4150000,
+      "subscribers_display": "4.15M",
+      "views_display": "3.38B",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 9,
+      "channel": "Donald J Trump",
+      "subscribers": 3960000,
+      "subscribers_display": "3.96M",
+      "views_display": "933.9M",
+      "lean": "Right",
+      "confidence": "high"
+    },
+    {
+      "rank": 10,
+      "channel": "The Officer Tatum",
+      "subscribers": 3840000,
+      "subscribers_display": "3.84M",
+      "views_display": "2.22B",
+      "lean": "Right",
+      "confidence": "high"
+    }
+  ],
+  "notes": [
+    "Overall Top 10 is SocialBlade US News & Politics by subscribers \u2014 includes institutional news and non-US channels.",
+    "Left/Right Top 10 are curated Frame A commentary/activist lists; lean coding is analyst judgment.",
+    "No US left/right political commentary channel appears in the global entertainment Top 100 (vidIQ)."
+  ]
+}

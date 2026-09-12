@@ -1,0 +1,290 @@
+{
+  "generated_at": "2026-09-11T22:08:23Z",
+  "methodology": "/workspace/political-data/sources/methodology_v2_association_index.md",
+  "source_batch": "comprehensive_match_v1",
+  "disclaimer": "Documented Association Index — research visualization only. Presence in court files, flight logs, contact books, or news coverage does NOT mean criminal conduct, guilt, or endorsement of Jeffrey Epstein. Presence != guilt. DAI != criminality. Sample is provisional and incomplete.",
+  "officials_dai_gt_none": {
+    "total": 38,
+    "by_party": {
+      "Democrat": 18,
+      "Republican": 17,
+      "Independent": 3
+    },
+    "by_band": {
+      "Limited": 19,
+      "Substantial": 7,
+      "Extensive": 4,
+      "Documented": 8
+    },
+    "by_party_band": {
+      "Democrat": {
+        "Limited": [
+          "Andrew M. Cuomo",
+          "Bruce King",
+          "Edward Kennedy",
+          "Eliot Spitzer",
+          "Hillary Clinton",
+          "John F. Kerry",
+          "Mark R. Warner",
+          "Steny H. Hoyer"
+        ],
+        "Substantial": [
+          "Bill Clinton",
+          "Charles E. Schumer",
+          "John Glenn",
+          "Kathy Ruemmler",
+          "Lawrence H. Summers"
+        ],
+        "Extensive": [
+          "Diana DeGette",
+          "George Mitchell",
+          "Stacey E. Plaskett",
+          "William Richardson"
+        ],
+        "Documented": [
+          "Sandy Berger"
+        ]
+      },
+      "Republican": {
+        "Limited": [
+          "Ben Sasse",
+          "Henry A. Kissinger",
+          "Jeff Sessions",
+          "Kevin M. Warsh",
+          "Marco Rubio",
+          "Mark Foley",
+          "Paul D. Ryan",
+          "Ron DeSantis",
+          "Tim Scott",
+          "William P. Barr"
+        ],
+        "Substantial": [
+          "Donald J. Trump",
+          "R. Alexander Acosta"
+        ],
+        "Documented": [
+          "Howard Lutnick",
+          "John Phelan",
+          "Mehmet Oz",
+          "Stephen K. Bannon",
+          "Thomas J. Barrack Jr."
+        ]
+      },
+      "Independent": {
+        "Documented": [
+          "Kenneth E. Mapp",
+          "Robert F. Kennedy Jr."
+        ],
+        "Limited": [
+          "Michael R. Bloomberg"
+        ]
+      }
+    },
+    "names_by_party": {
+      "Democrat": [
+        "Andrew M. Cuomo",
+        "Bill Clinton",
+        "Bruce King",
+        "Charles E. Schumer",
+        "Diana DeGette",
+        "Edward Kennedy",
+        "Eliot Spitzer",
+        "George Mitchell",
+        "Hillary Clinton",
+        "John F. Kerry",
+        "John Glenn",
+        "Kathy Ruemmler",
+        "Lawrence H. Summers",
+        "Mark R. Warner",
+        "Sandy Berger",
+        "Stacey E. Plaskett",
+        "Steny H. Hoyer",
+        "William Richardson"
+      ],
+      "Republican": [
+        "Ben Sasse",
+        "Donald J. Trump",
+        "Henry A. Kissinger",
+        "Howard Lutnick",
+        "Jeff Sessions",
+        "John Phelan",
+        "Kevin M. Warsh",
+        "Marco Rubio",
+        "Mark Foley",
+        "Mehmet Oz",
+        "Paul D. Ryan",
+        "R. Alexander Acosta",
+        "Ron DeSantis",
+        "Stephen K. Bannon",
+        "Thomas J. Barrack Jr.",
+        "Tim Scott",
+        "William P. Barr"
+      ],
+      "Independent": [
+        "Kenneth E. Mapp",
+        "Michael R. Bloomberg",
+        "Robert F. Kennedy Jr."
+      ]
+    }
+  },
+  "business_dai_gt_none": {
+    "total": 27,
+    "names": [
+      "Ariane de Rothschild",
+      "Bill Gates",
+      "Boris Nikolic",
+      "David Copperfield",
+      "Elon Musk",
+      "Glenn Dubin",
+      "Harvey Weinstein",
+      "Howard Lutnick",
+      "Jacqui Safra",
+      "Jean-Luc Brunel",
+      "Jes Staley",
+      "Jim Kimsey",
+      "Joichi Ito",
+      "Kevin Spacey",
+      "Leon Black",
+      "Leslie Wexner",
+      "Lynn Forester de Rothschild",
+      "Mortimer Zuckerman",
+      "Nicole Junkermann",
+      "Paul Tudor Jones",
+      "Peter Thiel",
+      "Reid Hoffman",
+      "Steve Case",
+      "Steven A. Cohen",
+      "Steven Sinofsky",
+      "Ted Leonsis",
+      "Tom Pritzker"
+    ]
+  },
+  "excluded_log": {
+    "total": 45,
+    "by_category": {
+      "pep_only_unverified": 16,
+      "oversight_investigation_only": 12,
+      "news_only": 3,
+      "pep_absurd_news_echo": 3,
+      "non_US": 2,
+      "declined_donation_or_negative_hit": 1,
+      "routine_government_document / news_adjacency": 1,
+      "name_collision": 1,
+      "name_collision_or_unrelated_tip": 1,
+      "news_only_pep_echo": 1,
+      "pep_only_unverified / name_family_collision_risk": 1,
+      "out_of_scope_or_pep_news": 1,
+      "out_of_scope_family": 1,
+      "entourage_of_documented_principal": 1
+    },
+    "names": [
+      "Adam Schiff",
+      "Alexandria Ocasio-Cortez",
+      "Barack Obama",
+      "Chelsea Clinton",
+      "Chuck Grassley",
+      "Cory Booker",
+      "Debbie Stabenow",
+      "Ed Markey",
+      "Ehud Barak",
+      "Elvis Presley",
+      "Eric Swalwell",
+      "Gavin Newsom",
+      "Hakeem Jeffries",
+      "Hunter Biden",
+      "JB Pritzker",
+      "JD Vance",
+      "James Comer",
+      "Jamie Raskin",
+      "Janis Joplin",
+      "Jerry Nadler",
+      "Jim Jordan",
+      "Jim Justice",
+      "Joe Biden",
+      "Josh Hawley",
+      "Kamala Harris",
+      "Lindsey Graham",
+      "Marjorie Taylor Greene",
+      "Marsha Blackburn",
+      "Michael Jackson",
+      "Mike Pence",
+      "Mitch McConnell",
+      "Nancy Mace",
+      "Nancy Pelosi",
+      "Pramila Jayapal",
+      "Prince Andrew",
+      "Rand Paul",
+      "Rick Scott",
+      "Ro Khanna",
+      "Robert Menendez",
+      "Rodney Slater",
+      "Steve Cohen (TN)",
+      "Ted Cruz",
+      "Ted Lieu",
+      "Thomas Massie",
+      "Zoe Lofgren"
+    ]
+  },
+  "ingest_stats": {
+    "officials_inserted": 0,
+    "new_official_names": [],
+    "events_inserted": 0,
+    "events_updated": 58,
+    "events_unchanged": 0,
+    "unmatched_names": [],
+    "persons_affected": [
+      "Bill Clinton",
+      "Donald J. Trump",
+      "William Richardson",
+      "George Mitchell",
+      "John Glenn",
+      "Sandy Berger",
+      "Stacey E. Plaskett",
+      "Kenneth E. Mapp",
+      "R. Alexander Acosta",
+      "Kathy Ruemmler",
+      "Lawrence H. Summers",
+      "Diana DeGette",
+      "Charles E. Schumer",
+      "Mark R. Warner",
+      "Steny H. Hoyer",
+      "John F. Kerry",
+      "Edward Kennedy",
+      "Michael R. Bloomberg",
+      "Andrew M. Cuomo",
+      "Henry A. Kissinger",
+      "Stephen K. Bannon",
+      "John Phelan",
+      "Robert F. Kennedy Jr.",
+      "Eliot Spitzer",
+      "Hillary Clinton",
+      "Mark Foley",
+      "Howard Lutnick",
+      "Mehmet Oz",
+      "Thomas J. Barrack Jr.",
+      "Kevin M. Warsh",
+      "Paul D. Ryan",
+      "Ben Sasse",
+      "Tim Scott",
+      "Marco Rubio",
+      "Ron DeSantis",
+      "William P. Barr",
+      "Jeff Sessions",
+      "Bruce King"
+    ],
+    "excluded": {
+      "log_upserts": 45,
+      "excluded_events_inserted": 0,
+      "excluded_events_existing": 27
+    }
+  },
+  "caveats": [
+    "Layer A (primary documents) only feeds DAI; news corroboration is separate.",
+    "Class C alone cannot push a person above Limited.",
+    "Public DAI requires identity P1-P3.",
+    "Same document_id counted once in aggregates.",
+    "All comprehensive_match_v1 cards are provisional.",
+    "Roster still incomplete vs full DOJ PEP / Oversight dumps."
+  ],
+  "chart_png": "/workspace/political-data/exports/party_dai_by_party.png"
+}

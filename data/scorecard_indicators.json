@@ -1,0 +1,127 @@
+{
+  "as_of": "2026-09-12",
+  "theme": "Human Dignity & Household Security / Better World",
+  "launch_geography": "US county / metro preferred at launch → expand to state / national / comparable international",
+  "indicators": [
+    {
+      "id": 1,
+      "name": "Food burden (% income)",
+      "definition": "Share of median household income required for a standardized food basket (fast-food / grocery proxy). Launch uses restaurant basket × frequency / annual MHI.",
+      "best_source": "BLS CPI food; USDA ERS food-at-home; local basket scrapes (restaurant-inflation / cost-of-living pilots)",
+      "geography": "US metro / state (24 metros, 19 states wired); county expansion planned",
+      "status": "partial",
+      "caveats": "Basket composition and eating-out frequency are proxies, not full household food budgets. Cross-metro menu coverage is uneven.",
+      "politicians_may_falsely_claim_credit_by": "Claiming credit for national CPI dips while local basket prices stay high; attributing grocery relief to a single bill without controlling for energy, wages, or global commodity shocks."
+    },
+    {
+      "id": 2,
+      "name": "Energy (electricity + gas) burden (% income)",
+      "definition": "Estimated monthly residential electricity (and gasoline where available) cost as % of median household income at fixed usage assumptions (e.g., 900 kWh/mo; gallons/mo for driving).",
+      "best_source": "EIA electric sales/revenue by state; EIA gasoline; Census ACS/SAIPE income",
+      "geography": "US state (51 jurisdictions for electricity as of 2026-06); metro overlays where available",
+      "status": "partial",
+      "caveats": "Fixed kWh ignores climate, housing stock, and rate design. Gas coverage incomplete in some exports. Burden ≠ retail rate alone.",
+      "politicians_may_falsely_claim_credit_by": "Citing a rate freeze while fixed charges rise; blaming the other party for weather-driven peaks; taking credit for cheap hydro/nuclear sited decades earlier."
+    },
+    {
+      "id": 3,
+      "name": "Rent / housing burden",
+      "definition": "Share of household income spent on rent or owner costs (classic 30%+ burden threshold), plus severe burden (50%+).",
+      "best_source": "HUD CHAS; ACS median gross rent / income; Zillow Observed Rent Index as supplemental price signal",
+      "geography": "US metro / county",
+      "status": "data wiring soon",
+      "caveats": "Rent indexes are not identical to tenant burden. Vacancy, quality, and household size matter. Owner costs differ from renter burdens.",
+      "politicians_may_falsely_claim_credit_by": "Announcing unit production without affordability covenants; citing citywide median rent while excluding newly gentrified tracts; taking credit for pandemic eviction pauses that expired."
+    },
+    {
+      "id": 4,
+      "name": "Child poverty",
+      "definition": "Share of children under 18 in households below the official or supplemental poverty measure.",
+      "best_source": "Census SAIPE (county); Census CPS/ASEC SPM for national; Kids Count",
+      "geography": "US county → state → national",
+      "status": "data wiring soon",
+      "caveats": "Official poverty vs SPM diverge. Small-area estimates have margins of error. Immigration and undercount affect some counties.",
+      "politicians_may_falsely_claim_credit_by": "Claiming poverty 'ended' from a temporary tax credit that expired; using national averages to hide high-poverty counties; cherry-picking post-recession mean reversion."
+    },
+    {
+      "id": 5,
+      "name": "Preventable mortality / primary care access (proxy)",
+      "definition": "Amenable mortality and/or primary-care physician / clinic access rates as dignity-relevant health security proxies.",
+      "best_source": "CDC WONDER; HRSA Area Health Resources Files; Commonwealth Fund state scorecards",
+      "geography": "US county / HRR / state",
+      "status": "data wiring soon",
+      "caveats": "Mortality lags policy. Rural hospital closures confound access. Race and age standardization required for fair comparison.",
+      "politicians_may_falsely_claim_credit_by": "Taking credit for long-run mortality declines driven by medical technology; blaming opponents for pandemic excess deaths without age structure; announcing clinics without staffing."
+    },
+    {
+      "id": 6,
+      "name": "Violent crime victimization",
+      "definition": "Violent victimization rates (preferably NCVS) and/or homicide rates with clear source hierarchy — survey victimization preferred over arrests for harm-to-persons framing.",
+      "best_source": "BJS NCVS; FBI UCR/NIBRS (with coverage caveats); CDC NVSS for homicide",
+      "geography": "US national / large metro; county where reliable",
+      "status": "data wiring soon",
+      "caveats": "NIBRS transition creates breaks. Clearance ≠ incidence. Small cities swing wildly year to year.",
+      "politicians_may_falsely_claim_credit_by": "Citing a single-year drop as proof of a policy; comparing non-comparable UCR eras; using 'crime is down' nationally while ignoring homicide spikes in specific neighborhoods."
+    },
+    {
+      "id": 7,
+      "name": "Homelessness rate",
+      "definition": "Point-in-time sheltered + unsheltered persons per 10,000 residents; chronic homelessness share.",
+      "best_source": "HUD Point-in-Time / HIC; local Continuum of Care reports",
+      "geography": "CoC / metro → state",
+      "status": "data wiring soon",
+      "caveats": "PIT undercounts hidden homelessness. Weather and one-night methods bias. Housing first vs shelter capacity debates need separate process measures.",
+      "politicians_may_falsely_claim_credit_by": "Clearing encampments without exits to housing; counting shelter beds as 'solved'; claiming credit for federal Emergency Housing Vouchers while cutting local zoning reform."
+    },
+    {
+      "id": 8,
+      "name": "Wage purchasing power / real median income",
+      "definition": "Inflation-adjusted median household or worker earnings; optionally wage vs local price index.",
+      "best_source": "Census ACS/CPS real median income; BLS CPI / regional price parities; BEA RPP",
+      "geography": "US county / metro / state",
+      "status": "partial (income side wired in income_vs_politics)",
+      "caveats": "Median ≠ typical for multi-earner households. Regional price parity imperfect. Stock wealth ≠ wage power.",
+      "politicians_may_falsely_claim_credit_by": "Citing nominal wage growth during high inflation; attributing national income gains to a local tax cut; ignoring composition effects from out-migration of low-income households."
+    },
+    {
+      "id": 9,
+      "name": "Corruption / transparency proxy",
+      "definition": "Composite of public integrity indicators: FOIA timeliness, conviction/ethics enforcement rates, open-budget scores — framed as transparency capacity, not a smear index.",
+      "best_source": "Transparency International CPI (national); state FOIA audits; DOJ public integrity statistics (careful interpretation)",
+      "geography": "National / state (county limited)",
+      "status": "data wiring soon",
+      "caveats": "Conviction counts reflect enforcement effort as much as corruption. Cross-country CPI is perception-based. Local data sparse.",
+      "politicians_may_falsely_claim_credit_by": "Passing 'ethics reform' that weakens inspectors general; touting low conviction counts as cleanliness rather than weak prosecution; weaponizing corruption talk against opponents while stonewalling FOIA."
+    },
+    {
+      "id": 10,
+      "name": "Peaceful transfer / election integrity proxy",
+      "definition": "Process indicators for peaceful transfer and election administration: certification timelines, audit completion, poll access, and documented interference attempts — not 'which party won.'",
+      "best_source": "MIT Election Data + Science Lab; CISA; state election director reports; Varieties of Democracy (V-Dem) electoral components for cross-national",
+      "geography": "US state / national; V-Dem for international context",
+      "status": "data wiring soon",
+      "caveats": "Integrity ≠ preferred outcome. Access and security can trade off in rhetoric — measure both. Avoid partisan 'stolen election' framing.",
+      "politicians_may_falsely_claim_credit_by": "Equating victory with integrity; equating loss with fraud; expanding or restricting access rules solely for partisan advantage while calling it 'security' or 'equity.'"
+    },
+    {
+      "id": 11,
+      "name": "Religious liberty / conscience freedom index",
+      "definition": "Cite existing global indices carefully (e.g., Pew Government Restrictions / Social Hostilities; USCIRF tiers; V-Dem religion freedom components). US state layer uses statute + court outcomes, not vibes.",
+      "best_source": "Pew GR/SHI; USCIRF annual; V-Dem; Becket / SCOTUSblog case trackers for US doctrine (supplemental)",
+      "geography": "National (global indices) → US state case/statute layer",
+      "status": "data wiring soon",
+      "caveats": "Indices mix government restriction and social hostility. US debates often conflate establishment, free exercise, and antidiscrimination — keep categories distinct. Nonsectarian framing: conscience for all, not one tradition.",
+      "politicians_may_falsely_claim_credit_by": "Claiming to defend 'religious liberty' while targeting disfavored minorities; claiming 'neutrality' while selectively enforcing zoning against houses of worship; exporting culture-war wins as universal freedom."
+    },
+    {
+      "id": 12,
+      "name": "Environmental burden on poor communities",
+      "definition": "Exposure of low-income / historically marginalized tracts to air toxics, flood risk, heat, and proximity to polluting facilities.",
+      "best_source": "EPA EJScreen; CDC/ATSDR environmental justice indexes; FEMA flood hazard + ACS income overlay",
+      "geography": "US census tract / county",
+      "status": "data wiring soon",
+      "caveats": "Screening tools are not individualized risk assessments. Facility proximity ≠ exposure dose. Climate projections carry uncertainty bands.",
+      "politicians_may_falsely_claim_credit_by": "Announcing a plant closure after emissions already fell under prior rules; citing statewide air averages while fenceline communities worsen; greenlining investment away from the poor and calling it climate action."
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "as_of": "2026-09-12",
+  "food_burden": {
+    "n_states": 19,
+    "mean_pct_income": 4.78,
+    "min_pct": 4.04,
+    "max_pct": 5.46,
+    "corr_vs_lean_right": 0.397,
+    "formula": "fastfood_proxy = (basket\u00d78/mo) / annual MHI \u00d7 100",
+    "highest": [
+      [
+        "FL",
+        5.46
+      ],
+      [
+        "AZ",
+        5.35
+      ],
+      [
+        "MO",
+        5.32
+      ],
+      [
+        "WA",
+        5.12
+      ],
+      [
+        "NY",
+        5.1
+      ]
+    ],
+    "lowest": [
+      [
+        "VA",
+        4.04
+      ],
+      [
+        "CO",
+        4.05
+      ],
+      [
+        "TX",
+        4.11
+      ],
+      [
+        "MA",
+        4.22
+      ],
+      [
+        "CA",
+        4.51
+      ]
+    ],
+    "n_metros": 24
+  },
+  "energy_burden": {
+    "n_states_elec": 51,
+    "us_avg_elec_cents": 19.42,
+    "mean_elec_pct_income": 2.61,
+    "min_pct": 1.53,
+    "max_pct": 6.01,
+    "corr_elec_vs_lean": -0.556,
+    "kwh_mo_assumption": 900,
+    "highest_elec": [
+      [
+        "HI",
+        6.01,
+        52.72
+      ],
+      [
+        "ME",
+        4.23,
+        29.59
+      ],
+      [
+        "CA",
+        3.8,
+        34.74
+      ],
+      [
+        "RI",
+        3.7,
+        29.23
+      ],
+      [
+        "NY",
+        3.56,
+        29.49
+      ]
+    ],
+    "lowest_elec": [
+      [
+        "UT",
+        1.53,
+        13.37
+      ],
+      [
+        "WA",
+        1.66,
+        14.91
+      ],
+      [
+        "NV",
+        1.84,
+        13.11
+      ],
+      [
+        "NE",
+        1.89,
+        13.25
+      ],
+      [
+        "VA",
+        1.9,
+        17.22
+      ]
+    ],
+    "period": "2026-06"
+  },
+  "income_politics": {
+    "n_counties": 3116,
+    "corr_lean_vs_income": -0.315,
+    "income_source": "Census SAIPE 2023 median household income",
+    "politics_source": "2024 county presidential (GOP\u2212DEM share)"
+  },
+  "restaurant_price_politics": {
+    "n_metros": 24,
+    "n_counties_plotted": 229,
+    "corr_metros": -0.451,
+    "corr_counties": -0.372
+  },
+  "dai": {
+    "officials_dai_gt_none": 38,
+    "by_party": {
+      "Democrat": 18,
+      "Republican": 17,
+      "Independent": 3
+    },
+    "by_band": {
+      "Limited": 19,
+      "Substantial": 7,
+      "Extensive": 4,
+      "Documented": 8
+    },
+    "disclaimer": "Presence in court files, flight logs, contact books, or news coverage does NOT mean criminal conduct, guilt, or endorsement. Presence \u2260 guilt. DAI \u2260 criminality."
+  },
+  "youtube": {
+    "overall_top100_subs_sum": 8344299998,
+    "left_n": 32,
+    "left_subs_sum": 124505000,
+    "left_subs_median": 2265000,
+    "right_n": 42,
+    "right_subs_sum": 131559000,
+    "right_subs_median": 2600000,
+    "left_top15_subs_sum": 102780000,
+    "right_top15_subs_sum": 82360000,
+    "overlap_overall_top100_political": 0
+  }
+}

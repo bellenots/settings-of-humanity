@@ -1,0 +1,60 @@
+{
+  "n_counties": 3116,
+  "corr_lean_vs_income": -0.31467658279006133,
+  "income_source": "Census SAIPE 2023 median household income",
+  "politics_source": "2024 county presidential (GOP-DEM share)",
+  "top5_income": [
+    {
+      "name": "Loudoun County",
+      "median_hh_income": 173655.0,
+      "lean_right": -0.16289087148566223
+    },
+    {
+      "name": "Santa Clara County",
+      "median_hh_income": 154573.0,
+      "lean_right": -0.39952933839529975
+    },
+    {
+      "name": "San Mateo County",
+      "median_hh_income": 151004.0,
+      "lean_right": -0.5032858309884725
+    },
+    {
+      "name": "Los Alamos County",
+      "median_hh_income": 146208.0,
+      "lean_right": -0.3018790514482645
+    },
+    {
+      "name": "Falls Church city",
+      "median_hh_income": 145755.0,
+      "lean_right": -0.62214293678225
+    }
+  ],
+  "bottom5_income": [
+    {
+      "name": "Claiborne County",
+      "median_hh_income": 28579.0,
+      "lean_right": -0.6755153911324485
+    },
+    {
+      "name": "Holmes County",
+      "median_hh_income": 30542.0,
+      "lean_right": -0.6206537890044578
+    },
+    {
+      "name": "Humphreys County",
+      "median_hh_income": 31538.0,
+      "lean_right": -0.4189734717416379
+    },
+    {
+      "name": "Buffalo County",
+      "median_hh_income": 32803.0,
+      "lean_right": -0.2725321888412017
+    },
+    {
+      "name": "Leflore County",
+      "median_hh_income": 33945.0,
+      "lean_right": -0.3844602483812759
+    }
+  ]
+}
